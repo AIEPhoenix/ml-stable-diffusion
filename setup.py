@@ -8,7 +8,7 @@ with open('README.md') as f:
 setup(
     name='python_coreml_stable_diffusion',
     version=__version__,
-    url='https://github.com/apple/ml-stable-diffusion',
+    url='https://github.com/AIEPhoenix/ml-stable-diffusion',
     description="Run Stable Diffusion on Apple Silicon with Core ML (Python and Swift)",
     long_description=readme,
     long_description_content_type='text/markdown',
@@ -20,7 +20,7 @@ setup(
         "transformers>=4.30.0",
         "huggingface-hub",
         "scipy",
-        "numpy<1.24",
+        "numpy",
         "pytest",
         "scikit-learn",
         "invisible-watermark",
